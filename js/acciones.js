@@ -4,12 +4,12 @@ $(document).ready(function(e){
  
  $('#Beep').click(function(e){
 	 
-alert('Has activado el Beep');
+navigator.nofification.beep(1)
 	 
 });// click continuar
 $('#Vibrar').click(function(e){
 	 
-alert('Has activado el Vibrar');
+navigator.notification.vibrate(1000)
 	 
 });// click continuar
 });//ready

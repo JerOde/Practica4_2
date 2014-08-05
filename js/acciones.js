@@ -4,7 +4,7 @@ $(document).ready(function(e){
  
  $('#Beep').click(function(e){
 	 
-navigator.nofification.beep(1);
+navigator.notification.beep(1);
 	 
 });// click continuar
 $('#Vibrar').click(function(e){

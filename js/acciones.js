@@ -8,17 +8,17 @@ $(document).ready(function(e){
  
  
  
- $('#Beep').click(function(e){
+ $('#Beep').bind("tap",function(e){
 	 
 navigator.notification.beep(1);
 	 
 });// click continuar
-$('#Vibrar').click(function(e){
+$('#Vibrar').bind("tap",function(e){
 	 
 navigator.notification.vibrate(1000);
 	 
 });// click continuar
-$('#Play').click(function(e){
+$('#Play').bind("tap",function(e){
 	
 audio.play('mario');
 
